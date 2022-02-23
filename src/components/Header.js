@@ -1,15 +1,19 @@
 import { StyledHeader } from "./styles/Header.styled";
+import { Link } from "react-router-dom";
 
 function Header() {
-    return (
-        <StyledHeader>
-            <header>
-                <div>
-                    <h1>DOCAPP</h1>
-                </div>
-            </header>
-        </StyledHeader>
-    );
+  return (
+    <StyledHeader>
+      <nav>
+        <h3>DOCAPP</h3>
+        <ul>
+          <Link to="/">
+            <li>Home</li>
+          </Link>
+        </ul>
+      </nav>
+    </StyledHeader>
+  );
 }
 
 export default Header;

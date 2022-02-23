@@ -1,4 +1,4 @@
-import styled from 'styled-components'
+import styled from "styled-components";
 
 export const StyledFooter = styled.footer`
   background-color: grey;
@@ -13,7 +13,7 @@ export const StyledFooter = styled.footer`
   p {
     text-align: right;
   }
-  @media (max-width:400) {
+  @media (max-width: 400) {
     text-align: center;
     ul {
       padding: 0;
@@ -22,4 +22,4 @@ export const StyledFooter = styled.footer`
       text-align: center;
     }
   }
-`
+`;
