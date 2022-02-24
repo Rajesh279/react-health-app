@@ -2,7 +2,7 @@ import styled from "styled-components";
 
 export const StyledCard = styled.div`
   display: inline-grid;
-  width: 33.3%;
+  min-width: 30%;
   background-color: #f7f8f5;
   border-radius: 15px;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.15);
@@ -18,5 +18,8 @@ export const StyledCard = styled.div`
   }
   .des {
     color: #0c0c0c;
+  }
+  a:link {
+    text-decoration: none;
   }
 `;

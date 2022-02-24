@@ -37,7 +37,13 @@ const rows = [
   ),
 ];
 
-export default function BasicTable() {
+export default function BasicTable(props) {
+  const { rowData } = props;
+
+  React.useEffect(() => {
+    console.log(rowData);
+  }, []);
+
   return (
     <TableContainer component={Paper}>
       <Table sx={{ minWidth: 650 }} aria-label="simple table">
