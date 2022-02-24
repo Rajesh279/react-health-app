@@ -1,4 +1,3 @@
-import Card from "./Card";
 import { Container } from "./styles/Container.styled";
 import BasicTable from "./Shared/mTable";
 

@@ -10,12 +10,6 @@ export default function Footer() {
           <li>What We Do</li>
           <li>FAQ</li>
         </ul>
-
-        <ul>
-          <li>Career</li>
-          <li>Blog</li>
-          <li>Contact Us</li>
-        </ul>
         <p>&copy; 2022 DOCApp. All rights reserved</p>
       </Container>
     </StyledFooter>
