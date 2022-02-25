@@ -1,5 +1,5 @@
 import { Link } from "react-router-dom";
-import { StyledCard } from "./styles/Card.styled";
+import { StyledCard } from "./card.styled";
 
 export default function Card({ item: { id, title, sub, des, image } }) {
   return (

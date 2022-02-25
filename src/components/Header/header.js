@@ -1,4 +1,4 @@
-import { StyledHeader } from "./styles/Header.styled";
+import { StyledHeader } from "./header.styled";
 import { Link } from "react-router-dom";
 
 function Header() {

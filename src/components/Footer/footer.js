@@ -1,5 +1,5 @@
-import { Container } from "./styles/Container.styled";
-import { StyledFooter } from "./styles/Footer.styled";
+import { Container } from "../styles/Container.styled";
+import { StyledFooter } from "./footer.styled";
 
 export default function Footer() {
   return (

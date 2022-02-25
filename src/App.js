@@ -1,7 +1,7 @@
-import Header from "./components/Header";
-import Footer from "./components/Footer";
+import Header from "./components/Header/header";
+import Footer from "./components/Footer/footer";
 import GlobalStyles from "./components/styles/Global";
-import AppRouting from "./components/routing/AppRouting";
+import AppRouting from "./components/Routing/AppRouting";
 
 function App() {
   return (

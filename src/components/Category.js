@@ -1,5 +1,5 @@
 import { Container } from "./styles/Container.styled";
-import BasicTable from "./Shared/mTable";
+import BasicTable from "./Shared/dataGrid";
 import CategoryService from "../Services/categoryService";
 import { useEffect, useState } from "react";
 import axios from "axios";
