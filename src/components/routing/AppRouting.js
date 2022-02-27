@@ -1,11 +1,11 @@
 import { Routes, Route } from "react-router-dom";
 import Home from "../Home/home";
-import Category from "../Category";
+import Doctors from "../Doctors/doctors";
 
 function AppRouting() {
   return (
     <Routes>
-      <Route path="/category" element={<Category />} />
+      <Route path="/doctors" element={<Doctors />} />
       <Route path="/" exact element={<Home />} />
     </Routes>
   );

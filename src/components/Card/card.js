@@ -4,7 +4,7 @@ import { StyledCard } from "./card.styled";
 export default function Card({ item: { id, title, sub, des, image } }) {
   return (
     <StyledCard>
-      <Link to="/category">
+      <Link to="/doctors">
         <div>
           <h3>{title}</h3>
         </div>

@@ -1,5 +1,5 @@
 import { Container } from "./styles/Container.styled";
-import BasicTable from "./Shared/dataGrid";
+import DataGrid from "../Framework/Components/Table/appDataGrid";
 import CategoryService from "../Services/categoryService";
 import { useEffect, useState } from "react";
 import axios from "axios";
@@ -26,7 +26,7 @@ function Category() {
 
   return (
     <Container>
-      {categories ? <BasicTable rowData={categories} /> : null}
+      {categories ? <DataGrid rowData={categories} /> : null}
     </Container>
   );
 }
