@@ -5,10 +5,12 @@ function Header() {
   return (
     <StyledHeader>
       <nav>
-        <h3>DOCAPP</h3>
+        <Link to="/">
+          <h3>DOCAPP</h3>
+        </Link>
         <ul>
           <Link to="/">
-            <li>Home</li>
+            <span>Home</span>
           </Link>
         </ul>
       </nav>

@@ -1,4 +1,4 @@
-export const content = [
+export const specializationConst = [
     {
       id: 1,
       title: 'Covid Consultation',

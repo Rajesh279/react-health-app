@@ -6,10 +6,13 @@ import axios from "axios";
 import { CircularProgress, Grid } from "@mui/material";
 import AppConfirmationDialog from "../../Framework/Components/Dialog/appConfirmationDialog";
 import AppLoader from "../../Framework/Components/Loader/appLoader";
+import { useAppContext } from "../../Context/appContext";
 
 const API_BASE_URL = "https://jsonplaceholder.typicode.com";
 
 function Doctors() {
+  const { selectedSpecializationTitle } = useAppContext();
+
   const [categories, setCategories] = useState([]);
   const [bookAppointment, setBookAppointment] = useState(false);
   const [showLoader, setShowLoader] = useState(false);
@@ -39,6 +42,7 @@ function Doctors() {
   const okBtnDialogHandler = () => {
     setBookAppointment(false);
   };
+  
   const columnHeaderDetails = [
     {
       columnName: "Name",
@@ -73,7 +77,7 @@ function Doctors() {
     <Container>
       <AppLoader loading={showLoader} />
       <Grid>
-        <h2 align="left">Doctors:</h2>
+        <h6 align="left"> Showing Results for : {selectedSpecializationTitle}</h6>
       </Grid>
       <Grid>
         {categories.length > 0 ? (

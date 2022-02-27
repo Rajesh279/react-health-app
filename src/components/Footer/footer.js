@@ -5,11 +5,6 @@ export default function Footer() {
   return (
     <StyledFooter>
       <Container>
-        <ul>
-          <li>About Us</li>
-          <li>What We Do</li>
-          <li>FAQ</li>
-        </ul>
         <p>&copy; 2022 DOCApp. All rights reserved</p>
       </Container>
     </StyledFooter>
