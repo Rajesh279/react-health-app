@@ -15,7 +15,7 @@ export const specializationConst = [
     },
     {
       id: 3,
-      title: 'General Physician/ Internal Medicine',
+      title: 'General Physician',
       sub:'Managing acute medical conditions',
       des:'Typhoid, Abdominal Pain, Migraine, Infections',
       image: 'doctor-avatar-male.png',
