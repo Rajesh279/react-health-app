@@ -91,9 +91,10 @@ function Doctors() {
         <AppConfirmationDialog
           open={bookAppointment}
           handleClose={closeDialogHandler}
-          title="Book Appointment"
+          title="Confirm"
           cancelBtnTile="Cancel"
           okBtnTitle="Continue"
+          description = "Are you sure want to Book Appointment ?"
           cancelBtnClick={cancelBtnDialogHandler}
           okBtnClick={okBtnDialogHandler}
         />

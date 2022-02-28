@@ -17,6 +17,7 @@ export default function AppConfirmationDialog(props) {
     okBtnTitle,
     cancelBtnClick,
     okBtnClick,
+    description
   } = props;
   //   const [open, setOpen] = React.useState(true);
   const theme = useTheme();
@@ -36,7 +37,7 @@ export default function AppConfirmationDialog(props) {
         <DialogTitle id="responsive-dialog-title">{title}</DialogTitle>
         <DialogContent>
           <DialogContentText>
-            Are you Sure want to Book Appointment ?
+            {description}
           </DialogContentText>
         </DialogContent>
         <DialogActions>
